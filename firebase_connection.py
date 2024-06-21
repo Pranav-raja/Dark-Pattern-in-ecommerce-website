@@ -9,14 +9,15 @@ def database_connection():
     print("connecting to firebase...")
     # Config to connect to the firebase
     config = {
-        "apiKey": "AIzaSyCa5TaVrhtNnQi56PszvuKWzooWhv6BME4",
-        "projectId": "splash-act",
-        "authDomain": "splash-act.firebaseapp.com",
-        "databaseURL": "gs://my-iot-project-22cad.appspot.com",
-        "storageBucket": "splash-act.appspot.com",
-        "messingSenderId": "691635819797",
-        "appId": "1:691635819797:android:cf8be5816678cb7489451c",
-        "measurementId": ""
+        # provide the following to upload in your firebase database
+        # "apiKey": "",
+        # "projectId": "",
+        # "authDomain": "",
+        # "databaseURL": "",
+        # "storageBucket": "",
+        # "messingSenderId": "",
+        # "appId": "",
+        # "measurementId": ""
     }
 
     firebase = pyrebase.initialize_app(config)
